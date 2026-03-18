@@ -1,0 +1,17 @@
+[project]
+name = "toolgroups"
+version = "0.1.0"
+description = "Toolgroups Support for MCP python-sdk"
+readme = "README.md"
+authors = [
+    { name = "Scott Lewis", email = "scottslewis@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [ "mcp", "pytest" ]
+
+[tool.uv.sources]
+mcp = { git = "git+https://github.com/modelcontextprotocol/python-sdk"}
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
