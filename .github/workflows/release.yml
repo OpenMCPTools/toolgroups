@@ -31,7 +31,7 @@ jobs:
       uses: astral-sh/setup-uv@v6
     - name: Install Python 3.13
       run: uv python install 3.13
-    - name: Build toolgroups
-      run: uv build toolgroups
+    - name: Build 
+      run: uv build 
     - name: Publish
-      run: uv publish toolgroups
+      run: uv publish 
