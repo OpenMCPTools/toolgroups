@@ -9,7 +9,7 @@ server toolgroups.
 Toolgroups represent collections of MCP tools. Groups may be hierarchical or flat, as defined by the developer. These groupings may or may not be communicated to MCP clients as this decision can be made at request time, and so may be based upon arbitrary server criteria (e.g. current security boundaries, user role/authorization, organizational governance, and administration, etc).
 
 Toolgroups also provide a way to prevent or reduce the inefficiencies in 
-context exchange between clients and servers with many tools (e.g. gateways). [See here for a clear description of this aggregation problem](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2204?sort=new#discussioncomment-15994902).
+context exchange between clients and servers with many tools (e.g. gateways). [See here for a clear description of this context bloat and aggregation problem](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2204?sort=new#discussioncomment-15994902).
 
 Groups may also have their own metadata (e.g. title, description, etc) defined by the server. This metadata can be used to define
 domain-appropriate abstractions for use by clients. 
